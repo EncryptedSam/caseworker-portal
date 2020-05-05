@@ -1,0 +1,6 @@
+.nav-wrapper{
+    display: flex;
+}
+.nav-wrapper .flex-item:nth-child(2){
+    flex:1;
+}

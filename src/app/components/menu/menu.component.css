@@ -1,0 +1,25 @@
+.menu{
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    vertical-align:top;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu li:nth-child(2):hover .profile-viewer{
+    display: block;
+}
+
+.profile-viewer{
+    margin-top: 16px;
+    display: none;
+    position: absolute;
+    background-color: #c6c2c2;
+    width: max-content;
+    right: 0;
+    z-index: 1;
+}

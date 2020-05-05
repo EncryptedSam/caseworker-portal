@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: 0px;
+    height: 100vh;
+}
+
+.striped-table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #808080;
+}
+.striped-table th{
+    text-align: inherit;
+    color: white;
+}
+
+.striped-table th, .striped-table td{
+    border: 2px solid white;
+    padding: 10px 5px;
+}
+
+.striped-table thead tr{
+    background: #808080;
+}
+
+.striped-table tbody tr:nth-child(odd) {
+    background: #F2F2F2;
+}
+
+.striped-table tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}

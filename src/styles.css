@@ -3,6 +3,7 @@
 body{
     margin: 0px;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .striped-table{

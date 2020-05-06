@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Profile } from 'src/app/models/profile';
+
 
 @Component({
   selector: 'app-menu',
@@ -8,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   constructor() { }
+
+  userName:Profile = new Profile("Xxxx xxxxx","Xxxx, xxxx, xxx","XXXX (XX)","XX");
 
   ngOnInit() {
   }
